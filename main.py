@@ -1,5 +1,7 @@
 from twitter import getTweetVideo
+from pathlib import Path
 
+Path("./videos").mkdir(parents=True, exist_ok=True)
 
 print("Insert twitter URL: ")
 url = input()
