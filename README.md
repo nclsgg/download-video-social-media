@@ -25,7 +25,7 @@ First of all, install all the required packages if you don't have any of them:
 pip install [package]
 ```
 
-Then, you have to add yout [TwitterAPI](https://developer.twitter.com/ja/docs/basics/authentication/guides/access-tokens#:~:text=Generating%20access%20tokens&text=Login%20to%20your%20Twitter%20account,%26%20access%20token%20secret%22%20section.) bearer token on the .env file (sorry for that... is just a local application).
+Then, you have to add your [TwitterAPI](https://developer.twitter.com/ja/docs/basics/authentication/guides/access-tokens#:~:text=Generating%20access%20tokens&text=Login%20to%20your%20Twitter%20account,%26%20access%20token%20secret%22%20section.) bearer token on the .env file (sorry for that... is just a local application).
 
 One time you added your TwitterAPI Bearer Token, is just run the application :)
 ```
