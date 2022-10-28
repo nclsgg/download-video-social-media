@@ -55,7 +55,7 @@ def getTweetVideo(tweet_url):
       sys.exit(1)
 
   if len(videoURLs) == 1:
-    urllib.request.urlretrieve(videoURLs[0]['url'], "video-{}-{}.mp4".format(account_name, tweet_url[-19:]))
+    urllib.request.urlretrieve(videoURLs[0]['url'], "./videos/video-{}-{}.mp4".format(account_name, tweet_url[-19:]))
     print("Video downloaded successfully.")
   else:
     print("Select the video quality you want to download:")
